@@ -3,3 +3,14 @@
 - 개발환경
 1. python 3.7
 2. Django 3.0.2
+
+- 참고사이트
+1. https://docs.djangoproject.com/ko/3.0/intro/tutorial01/ : Django 3.0 듀토리얼
+
+- 참고 명령어
+    - python - django --version : django 버전 확인
+    - django-admin startproject {프로젝트명} : django 프로젝트 생성
+    - python manage.py runserver : 서버 실행(manage.py가 존재하는 디렉토리에서 입력)
+        - 기본적으로 8000포트 개발 서버를 띄우는데 runserver {포트} 를 이용하면 원하는 포트로 서버 실행
+    - python manage.py startapp {앱명} : 최상위에서 곧바로 임포트 가능한 기본 앱 생성
+     
