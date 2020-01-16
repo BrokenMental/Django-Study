@@ -1,5 +1,5 @@
 # Django_Study
 
 - 개발환경
-: python 3.7
-: Django 3.0.2
+1. python 3.7
+2. Django 3.0.2
