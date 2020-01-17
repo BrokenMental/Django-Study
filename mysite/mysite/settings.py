@@ -28,9 +28,9 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-# Application definition
-
+# Application definition, 프로젝트 포함 정의
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig', #apps.py에 존재하는 PollsConfig 클래스로 polls앱이 설치 되어있다는것을 확인
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
