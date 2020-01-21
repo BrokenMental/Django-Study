@@ -1,8 +1,9 @@
 # Django_Study
 
 - 개발환경
-1. python 3.7
-2. Django 3.0.2
+1. PyCharm
+2. python 3.7.8
+3. Django 3.0.2
 
 - 참고사이트
 1. https://docs.djangoproject.com/ko/3.0/intro/tutorial01/ : Django 3.0 듀토리얼
