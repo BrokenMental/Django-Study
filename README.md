@@ -2,7 +2,7 @@
 
 - 개발환경
 1. PyCharm
-2. python 3.7.8
+2. python 3.7.6
 3. Django 3.0.2
 
 - 참고사이트
@@ -23,3 +23,13 @@
     
 - 관리자 사이트
     - id : admin
+    
+- 설명
+    > 사용자가 /polls/34/ 를 요청했을 경우 Django는 mysite.urls 파이썬 모듈을 불러오게 된다.
+    > settings.py의 ROOT_URLCONF 설정에 해당 모듈을 바라보도록 지정되어있기 때문이다.
+    > mysite.urls에서 urlpatterns 변수를 찾고 urlpatterns에 path로 연결된 'polls/' 를 따라간다.
+    > 'polls/'를 제외한 34/를 'polls.urls'로 전달하여 남은 처리를 진행한다.
+    > 그곳의 '<int:question_id>/' 와 일치하여 결과적으로 detail() 뷰 함수가 호출된다.
+    >
+
+

@@ -12,6 +12,7 @@ class Migration(migrations.Migration):
     operations = [
         migrations.RenameField(
             model_name='choice',
+            old_name='vot',
             new_name='votes',
         ),
     ]

@@ -1,0 +1,11 @@
+{% if latest_question_list %}
+    <ul>
+        {% for question in latest_question_list %}
+        <!-- 템플릿에 링크를 적으면 링크는 하드코딩 되며 경로들이 의존성을 갖게 된다. -->
+        <!--<li><a href="polls/{{ question.id }}/">{{question.question_text}}</a></li>-->
+        <li><a href="{% url 'polls:detail' question.id %}">{{question.question_text}}</a></li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
